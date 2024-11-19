@@ -1,5 +1,5 @@
 # Assignment3
-This is Assignment 3 by Jinho Nam for CS 4850 (Foundation of AI) course.
+This is [Assignment 3](./Assignment3_Description.pdf) by Jinho Nam for CS 4850 (Foundation of AI) course.
 
 ## How to set up the environment
 The dependencies for this project are listed in `requirements.txt`. Python virtual environment will install all of the items within the file.
@@ -14,13 +14,13 @@ The dependencies for this project are listed in `requirements.txt`. Python virtu
 5. Install dependencies
     - `pip install -r requirements.txt`
 
-## What code to run
+## How to get result from the code
 This is the instruction what code to run to get the answers for questions in [PDF file](Assignment3_Description.pdf). If the Python virtual environment and the dependencies are installed succesfully, this instruction will give the result as supposed.
 
 - Question 1
-    - `simpleAutoencoder.py` and `Q1.py` are the corresponding files for the answers.
-    - For the 2-D plot, refer to the lines 32 and 33 in `Q1.py`.
-    - For the 3-D plot, refer to the lines 106 and 107 in `Q1.py`. <br />
+    - [`simpleAutoencoder.py`](./scripts/simpleAutoencoder.py) and [`Q1.py`](./scripts/Q1.py) are the corresponding files for the answers.
+    - For the 2-D plot, refer to the lines 32 and 33 in `Q1.py`. Once following the instruction from those lines, run `Q1.py`.
+    - For the 3-D plot, refer to the lines 106 and 107 in `Q1.py`. Once following the instruction from those lines, run `Q1.py`.
     - Example output (2-D plots):
         ![question1-result(2-D)](./results_images/Q1_2-D_scattor_plots.png)
     - Example output (3-D plots):
@@ -28,7 +28,7 @@ This is the instruction what code to run to get the answers for questions in [PD
         >  The output plots are also at [here](./results_images) as .png file.
 
 - Question 2
-    - `simpleAutoencoder.py` and `Q2.py` are corresponding files for the answers.
+    - [`simpleAutoencoder.py`](./scripts/simpleAutoencoder.py) and [`Q2.py`](./scripts/Q2.py) are corresponding files for the answers.
     - To see the result of model 1 with layers `d → 50 → 2 → 50 → d`, refer to lines 23-25 and 58-61 in `simpleAutoencoder.py`, and run `Q2.py`.
     - To see the result of model 2 with layers `d → 100 → 50 → 2 → 50 → 100 → d`, refer to lines 28 and 32 and 64-69 in `simpleAutoencoder.py`, and run `Q2.py`.
     - To see the result of model 3 with layers `d → 200 → 100 → 50 → 2 → 50 → 100 → 200 → d`, refer to lines 35-41 and lines 72-79, and run `Q2.py`
@@ -41,10 +41,10 @@ This is the instruction what code to run to get the answers for questions in [PD
         >  The outputs are also at [here](./results_images) as .png file.
 
 - Question 3
-    - `simpleANNClassifierPyTorch.py`, `utilityDBN.py` and `Q3.py` are corresponding files for the answers.
-    - Run `Q3.py`
+    - [`simpleANNClassifierPyTorch.py`](./scripts/simpleANNClassifierPyTorch.py), [`utilityDBN.py`](./scripts/utilityDBN.py) and [`Q3.py`](./scripts/Q3.py) are corresponding files for the answers.
+    - To see the result, simply run `Q3.py`
     - Example output:
         ![Q3_decreasing-graph](./results_images/Q3_decreasing-graph.png)
-        > "The graph spikes in the middle, but then gradually declines as it's supposed."
+        > "[The graph](./results_images/Q3_decreasing-graph.png) spikes in the middle, but then gradually declines as it's supposed."
 
     
