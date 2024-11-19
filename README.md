@@ -27,3 +27,17 @@ This is the instruction what code to run to get the answers for questions in [PD
         ![question1-result(3-D)](./results_images/Q1_3-D_scattor_plots.png)
         >  The output plots are also at [here](./results_images) as .png file.
 
+- Question 2
+    - `simpleAutoencoder.py` and `Q2.py` are corresponding files for the answers.
+    - To see the result of model 1 with layers `d → 50 → 2 → 50 → d`, refer to lines 23-25 and 58-61 in `simpleAutoencoder.py`, and run `Q2.py`.
+    - To see the result of model 2 with layers `d → 100 → 50 → 2 → 50 → 100 → d`, refer to lines 28 and 32 and 64-69 in `simpleAutoencoder.py`, and run `Q2.py`.
+    - To see the result of model 3 with layers `d → 200 → 100 → 50 → 2 → 50 → 100 → 200 → d`, refer to lines 35-41 and lines 72-79, and run `Q2.py`
+    - Example output (model 1):
+        ![Q2_model-1](./results_images/Q2_model-1.png)
+    - Example output (model 2):
+        ![Q2_model-2](./results_images/Q2_model-2.png)
+    - Example output (model 3):
+        ![Q2_model-3](./results_images/Q2_model-3.png)
+        >  The outputs are also at [here](./results_images) as .png file.
+
+
