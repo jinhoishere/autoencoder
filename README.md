@@ -40,4 +40,11 @@ This is the instruction what code to run to get the answers for questions in [PD
         ![Q2_model-3](./results_images/Q2_model-3.png)
         >  The outputs are also at [here](./results_images) as .png file.
 
+- Question 3
+    - `simpleANNClassifierPyTorch.py`, `utilityDBN.py` and `Q3.py` are corresponding files for the answers.
+    - Run `Q3.py`
+    - Example output:
+        ![Q3_decreasing-graph](./results_images/Q3_decreasing-graph.png)
+        > "The graph spikes in the middle, but then gradually declines as it's supposed."
 
+    
