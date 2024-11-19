@@ -13,7 +13,6 @@ class AE(torch.nn.Module):
         # An encoder with ReLU activation function
         # 784 ==> 2
         self.encoder = torch.nn.Sequential(
-            
             # Question 1 - 2D
             # torch.nn.Linear(28 * 28, 2)
 
@@ -66,7 +65,7 @@ class AE(torch.nn.Module):
             # torch.nn.Tanh(),
             # torch.nn.Linear(50, 100),
             # torch.nn.Tanh(),
-            # torch.nn.Linear(100, 28 * 28)
+            # torch.nn.Linear(100, 28 * 28),
             # torch.nn.Sigmoid()
 
             # Question 2 - model 3
@@ -76,7 +75,7 @@ class AE(torch.nn.Module):
             # torch.nn.Tanh(),
             # torch.nn.Linear(100, 200),
             # torch.nn.Tanh(),
-            # torch.nn.Linear(200, 28 * 28)
+            # torch.nn.Linear(200, 28 * 28),
             # torch.nn.Sigmoid()
         )
         

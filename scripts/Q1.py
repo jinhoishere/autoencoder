@@ -28,9 +28,9 @@ model.fit(train_set, learning_rate, num_epochs, miniBatch_size, cudaDeviceId)
 print("Training model with train_set has been finished...\n")
 
 
-# Question 1 - 2D plotting (Line 37 - 105)
-# -> Remove lines 37 and 104 in <Q1.py>
-# -> Uncomment lines 18, 51, and 52 in <simpleAutoencoder.py>
+# Perform 2D plotting (Line 34 - 101)
+# -> Remove lines 34 and 101 in <Q1.py>
+# -> Uncomment lines 17, 50, and 51 in <simpleAutoencoder.py>
 """
 # Autoencoder in 2-D: Run the trained model with one hidden layer
 print("Encoding from the input layer to the bottleneck layer(2D)...")
@@ -99,12 +99,12 @@ print("A new window for two 2-D scatter plots has been created...")
 plt.show()
 ##################################################################
 """ 
-# End of Question 1 - 2D plotting
+# End of 2D plotting
 
 
-# Question 1 - 3D plotting (Line 108 - 169)
-# -> Remove lines 110 and 170 in <Q1.py>
-# -> Uncomment lines 21, 55, and 56 in <simpleAutoencoder.py>
+# Perform 3D plotting (Line 108 - 168)
+# -> Remove lines 108 and 168 in <Q1.py>
+# -> Uncomment lines 20, 54, and 55 in <simpleAutoencoder.py>
 """ 
 # Autoencoder in 3-D: Run the trained model with one hidden layer
 print("Encoding from the input layer to the bottleneck layer(3D)...")
@@ -166,4 +166,4 @@ ax2.set_title("<PCA in 3-D>")
 plt.show()
 ##################################################################
 """ 
-# End of Question1 - 3D plotting
+# End of 3D plotting
