@@ -38,13 +38,13 @@ This is the instruction what code to run to get the answers for questions in [PD
         ![Q2_model-2](./results_images/Q2_model-2.png)
     - Example output (model 3):
         ![Q2_model-3](./results_images/Q2_model-3.png)
-        >  The outputs are also at [here](./results_images) as .png file.
+        >  "All of the above accuracies are calculated based on the true test-label dataset and the predicted test-label dataset."
 
 - Question 3
     - [`simpleANNClassifierPyTorch.py`](./scripts/simpleANNClassifierPyTorch.py), [`utilityDBN.py`](./scripts/utilityDBN.py) and [`Q3.py`](./scripts/Q3.py) are corresponding files for the answers.
     - To see the result, simply run `Q3.py`
     - Example output:
         ![Q3_decreasing-graph](./results_images/Q3_decreasing-graph.png)
-        > "The error rate of [the graph](./results_images/Q3_decreasing-graph.png) increases at the certain number of neurons."
+        > "The error rate of [the graph](./results_images/Q3_decreasing-graph.png) starts increasing after the certain number of neurons(320). This means that the model overfitts at the training data beyond the certain point."
 
     
