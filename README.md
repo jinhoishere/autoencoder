@@ -45,6 +45,6 @@ This is the instruction what code to run to get the answers for questions in [PD
     - To see the result, simply run `Q3.py`
     - Example output:
         ![Q3_decreasing-graph](./results_images/Q3_decreasing-graph.png)
-        > "[The graph](./results_images/Q3_decreasing-graph.png) spikes in the middle, but then gradually declines as it's supposed."
+        > "The error rate of [the graph](./results_images/Q3_decreasing-graph.png) increases at the certain number of neurons."
 
     
